@@ -1,0 +1,42 @@
+Face Detection Test Model
+: YOLO, MTCNN, RetinaFace, MediaPipe Face Detection
+
+파일 구조 : 
+모델별 .py 파일 만들기
+1. YOLO
+: yolov8n-face.pt 사용
+바운딩박스 조절을 안할 시 머리 등 기타 특징이 잡히지 않아
+바운딩박스 비율을 조절하여 가능한 얼굴-머리의 전체가 잡히도록 조절
+>> 사람이 없는 화면에서 사람이 있다고 오판단 하긴 하지만, 전체적인 얼굴 인식은 나쁘지 않음.
+>> 라이센스 문제로 아예 사용 못함
+
+2. MTCNN
+pip install mtcnn opencv-python numpy tensorflow
+>> 조금 느리다?
+>> yolo 보다 얼굴 감지 특화 (얼굴 랜드마크 -눈,코,입 감지) 가능 / 처리 속도가 더 느리다..!
+
+
+3. RetinaFace
+>> MTCNN보다 느림림
+
+
+4. MediaPipe Face Detection
+
+
+
+https://drive.google.com/file/d/1Jc5L28yoVPKl7eLURoaNReuk5hkzuZNu/view?usp=sharing
+
+
+1. 욜로8 상업적 라이센스 확인 >> MTCNN으로 변경
+apache, mit 라이센스만 가능
+
+2. main face detecting 은 알고리즘으로 (not model)
+
+pip install retina-face tf-keras
+
+shot 별로 
+1. 일정 수준 이상 선명도 (라플라시안) 로 필터링
+2. 샷 내 해당 장면의 프레임 내 바운딩박스의 크기 분포도에 따라서 가중치 부여
+2-1 선명도 0.4 고정
+2-1-1 크기 0.5 중앙값 0.1 (바운딩박스 별 크기 차이가 크다)
+2-1-2 크기 0.1 중앙값 0.5 (바운딩 박스 크기가 다 고만고만하다)

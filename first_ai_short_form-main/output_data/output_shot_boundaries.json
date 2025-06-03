@@ -1,0 +1,149 @@
+[
+  {
+    "shot": 0,
+    "start": "00000000",
+    "end": "00000000",
+    "start_frame": 0,
+    "end_frame": 4
+  },
+  {
+    "shot": 1,
+    "start": "00000000",
+    "end": "00000001",
+    "start_frame": 5,
+    "end_frame": 39
+  },
+  {
+    "shot": 2,
+    "start": "00000001",
+    "end": "00000002",
+    "start_frame": 40,
+    "end_frame": 82
+  },
+  {
+    "shot": 3,
+    "start": "00000002",
+    "end": "00000004",
+    "start_frame": 83,
+    "end_frame": 138
+  },
+  {
+    "shot": 4,
+    "start": "00000004",
+    "end": "00000012",
+    "start_frame": 139,
+    "end_frame": 363
+  },
+  {
+    "shot": 5,
+    "start": "00000012",
+    "end": "00000013",
+    "start_frame": 364,
+    "end_frame": 417
+  },
+  {
+    "shot": 6,
+    "start": "00000014",
+    "end": "00000016",
+    "start_frame": 418,
+    "end_frame": 485
+  },
+  {
+    "shot": 7,
+    "start": "00000016",
+    "end": "00000020",
+    "start_frame": 486,
+    "end_frame": 604
+  },
+  {
+    "shot": 8,
+    "start": "00000020",
+    "end": "00000025",
+    "start_frame": 605,
+    "end_frame": 762
+  },
+  {
+    "shot": 9,
+    "start": "00000025",
+    "end": "00000028",
+    "start_frame": 763,
+    "end_frame": 842
+  },
+  {
+    "shot": 10,
+    "start": "00000028",
+    "end": "00000030",
+    "start_frame": 843,
+    "end_frame": 905
+  },
+  {
+    "shot": 11,
+    "start": "00000030",
+    "end": "00000033",
+    "start_frame": 906,
+    "end_frame": 1002
+  },
+  {
+    "shot": 12,
+    "start": "00000033",
+    "end": "00000034",
+    "start_frame": 1003,
+    "end_frame": 1044
+  },
+  {
+    "shot": 13,
+    "start": "00000035",
+    "end": "00000036",
+    "start_frame": 1045,
+    "end_frame": 1084
+  },
+  {
+    "shot": 14,
+    "start": "00000036",
+    "end": "00000037",
+    "start_frame": 1085,
+    "end_frame": 1109
+  },
+  {
+    "shot": 15,
+    "start": "00000037",
+    "end": "00000038",
+    "start_frame": 1110,
+    "end_frame": 1149
+  },
+  {
+    "shot": 16,
+    "start": "00000038",
+    "end": "00000040",
+    "start_frame": 1150,
+    "end_frame": 1215
+  },
+  {
+    "shot": 17,
+    "start": "00000040",
+    "end": "00000044",
+    "start_frame": 1216,
+    "end_frame": 1337
+  },
+  {
+    "shot": 18,
+    "start": "00000044",
+    "end": "00000047",
+    "start_frame": 1338,
+    "end_frame": 1415
+  },
+  {
+    "shot": 19,
+    "start": "00000047",
+    "end": "00000049",
+    "start_frame": 1416,
+    "end_frame": 1472
+  },
+  {
+    "shot": 20,
+    "start": "00000049",
+    "end": "00000050",
+    "start_frame": 1473,
+    "end_frame": 1493
+  }
+]
